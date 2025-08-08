@@ -1,11 +1,5 @@
 import requests, to_kml
 
-## test coords
-# N385226.67 W1044741.62
-
-## official test request
-#https://geodesy.noaa.gov/api/nde/radial?lat=38.954775&lon=-104.885727&radius=10.5
-
 ngs_monuments = ''
 markers = ''
 
@@ -55,8 +49,16 @@ with open('test5.kml', 'w') as f:
 # lat
 # lon
 # vertDatum
-# verSource
+# vertSource
 # posSource
 # condition
 # setting
 # string for url https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID={}
+
+
+##TODO:
+#### Figure out how to color symbols and how to manipulate them in python
+#### enter user queries for lat lon radius
+#### different symbols for different types of desireable points
+#### Add URL to point
+

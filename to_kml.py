@@ -4,30 +4,30 @@ def template(markers):
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>test5.kml</name>
-	<StyleMap id="m_ylw-pushpin">
+	<StyleMap id="sn_placemark_circle">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin</styleUrl>
+			<styleUrl>#sn_placemark_circle</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+			<styleUrl>#sn_placemark_circle</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="s_ylw-pushpin">
+	<Style id="sn_placemark_circle">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 	</Style>
-	<Style id="s_ylw-pushpin_hl">
+	<Style id="sn_placemark_circle">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -41,7 +41,14 @@ def template(markers):
 def create_marker(attributes):
   return f'''
     <Placemark>
-      <name>Untitled Placemark</name>
+      <name>{attributes['pid']}</name>
+      <description>
+        stCounty: {attributes['stCounty']}
+        vertDatum: {attributes['vertDatum']}
+        vertSource: {attributes['vertSource']}
+        condition: {attributes['condition']}
+        setting: {attributes['setting']}
+      </description>
       <LookAt>
         <longitude>{attributes['lon']}</longitude>
         <latitude>{attributes['lat']}</latitude>
@@ -51,7 +58,7 @@ def create_marker(attributes):
         <range>23947.66089891575</range>
         <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
       </LookAt>
-      <styleUrl>#m_ylw-pushpin</styleUrl>
+      <styleUrl>#sn_placemark_circle</styleUrl>
       <Point>
         <gx:drawOrder>1</gx:drawOrder>
         <coordinates>{attributes['lon']},{attributes['lat']},0</coordinates>

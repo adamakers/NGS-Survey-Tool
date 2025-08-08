@@ -2,37 +2,44 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>test5.kml</name>
-	<StyleMap id="m_ylw-pushpin">
+	<StyleMap id="sn_placemark_circle">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin</styleUrl>
+			<styleUrl>#sn_placemark_circle</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+			<styleUrl>#sn_placemark_circle</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="s_ylw-pushpin">
+	<Style id="sn_placemark_circle">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 	</Style>
-	<Style id="s_ylw-pushpin_hl">
+	<Style id="sn_placemark_circle">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 	</Style>
   f
     <Placemark>
-      <name>Untitled Placemark</name>
+      <name>JK0156</name>
+      <description>
+        stCounty: CO,EL PASO
+        vertDatum: NAVD 88
+        vertSource: POSTED
+        condition: GOOD
+        setting: 36 = SET IN A MASSIVE STRUCTURE
+      </description>
       <LookAt>
         <longitude>-104.8366666667</longitude>
         <latitude>38.9588888889</latitude>
@@ -42,7 +49,7 @@
         <range>23947.66089891575</range>
         <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
       </LookAt>
-      <styleUrl>#m_ylw-pushpin</styleUrl>
+      <styleUrl>#sn_placemark_circle</styleUrl>
       <Point>
         <gx:drawOrder>1</gx:drawOrder>
         <coordinates>-104.8366666667,38.9588888889,0</coordinates>
@@ -51,7 +58,14 @@
     </Placemark>
   
     <Placemark>
-      <name>Untitled Placemark</name>
+      <name>JK0157</name>
+      <description>
+        stCounty: CO,EL PASO
+        vertDatum: NAVD 88
+        vertSource: ADJUSTED
+        condition: MARK NOT FOUND
+        setting: 7 = SET IN TOP OF CONCRETE MONUMENT
+      </description>
       <LookAt>
         <longitude>-104.8363888889</longitude>
         <latitude>38.9605555556</latitude>
@@ -61,7 +75,7 @@
         <range>23947.66089891575</range>
         <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
       </LookAt>
-      <styleUrl>#m_ylw-pushpin</styleUrl>
+      <styleUrl>#sn_placemark_circle</styleUrl>
       <Point>
         <gx:drawOrder>1</gx:drawOrder>
         <coordinates>-104.8363888889,38.9605555556,0</coordinates>
@@ -70,7 +84,14 @@
     </Placemark>
   
     <Placemark>
-      <name>Untitled Placemark</name>
+      <name>JK0155</name>
+      <description>
+        stCounty: CO,EL PASO
+        vertDatum: NAVD 88
+        vertSource: ADJUSTED
+        condition: GOOD
+        setting: 32 = SET IN A RETAINING WALL OR CONCRETE LEDGE
+      </description>
       <LookAt>
         <longitude>-104.8291944444</longitude>
         <latitude>38.9487222222</latitude>
@@ -80,7 +101,7 @@
         <range>23947.66089891575</range>
         <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
       </LookAt>
-      <styleUrl>#m_ylw-pushpin</styleUrl>
+      <styleUrl>#sn_placemark_circle</styleUrl>
       <Point>
         <gx:drawOrder>1</gx:drawOrder>
         <coordinates>-104.8291944444,38.9487222222,0</coordinates>
@@ -89,7 +110,14 @@
     </Placemark>
   
     <Placemark>
-      <name>Untitled Placemark</name>
+      <name>JK0163</name>
+      <description>
+        stCounty: CO,EL PASO
+        vertDatum: NAVD 88
+        vertSource: ADJUSTED
+        condition: GOOD
+        setting: 32 = SET IN A RETAINING WALL OR CONCRETE LEDGE
+      </description>
       <LookAt>
         <longitude>-104.8333333333</longitude>
         <latitude>38.9741666667</latitude>
@@ -99,7 +127,7 @@
         <range>23947.66089891575</range>
         <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
       </LookAt>
-      <styleUrl>#m_ylw-pushpin</styleUrl>
+      <styleUrl>#sn_placemark_circle</styleUrl>
       <Point>
         <gx:drawOrder>1</gx:drawOrder>
         <coordinates>-104.8333333333,38.9741666667,0</coordinates>
@@ -108,7 +136,14 @@
     </Placemark>
   
     <Placemark>
-      <name>Untitled Placemark</name>
+      <name>JK1235</name>
+      <description>
+        stCounty: CO,EL PASO
+        vertDatum: NAVD 88
+        vertSource: VERTCON3
+        condition: GOOD
+        setting: 80 = SET IN A BOULDER
+      </description>
       <LookAt>
         <longitude>-104.9349890750</longitude>
         <latitude>38.9506669194</latitude>
@@ -118,7 +153,7 @@
         <range>23947.66089891575</range>
         <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
       </LookAt>
-      <styleUrl>#m_ylw-pushpin</styleUrl>
+      <styleUrl>#sn_placemark_circle</styleUrl>
       <Point>
         <gx:drawOrder>1</gx:drawOrder>
         <coordinates>-104.9349890750,38.9506669194,0</coordinates>
@@ -127,7 +162,14 @@
     </Placemark>
   
     <Placemark>
-      <name>Untitled Placemark</name>
+      <name>JK1234</name>
+      <description>
+        stCounty: CO,EL PASO
+        vertDatum: NAVD 88
+        vertSource: VERTCON3
+        condition: GOOD
+        setting: 66 = SET IN ROCK OUTCROP
+      </description>
       <LookAt>
         <longitude>-104.9156290194</longitude>
         <latitude>38.9995103111</latitude>
@@ -137,7 +179,7 @@
         <range>23947.66089891575</range>
         <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
       </LookAt>
-      <styleUrl>#m_ylw-pushpin</styleUrl>
+      <styleUrl>#sn_placemark_circle</styleUrl>
       <Point>
         <gx:drawOrder>1</gx:drawOrder>
         <coordinates>-104.9156290194,38.9995103111,0</coordinates>
@@ -146,7 +188,14 @@
     </Placemark>
   
     <Placemark>
-      <name>Untitled Placemark</name>
+      <name>AE4289</name>
+      <description>
+        stCounty: CO,EL PASO
+        vertDatum: NAVD 88
+        vertSource: GPS OBS
+        condition: GOOD
+        setting: 7 = SET IN TOP OF CONCRETE MONUMENT
+      </description>
       <LookAt>
         <longitude>-104.8869556778</longitude>
         <latitude>38.9545463639</latitude>
@@ -156,7 +205,7 @@
         <range>23947.66089891575</range>
         <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
       </LookAt>
-      <styleUrl>#m_ylw-pushpin</styleUrl>
+      <styleUrl>#sn_placemark_circle</styleUrl>
       <Point>
         <gx:drawOrder>1</gx:drawOrder>
         <coordinates>-104.8869556778,38.9545463639,0</coordinates>
@@ -165,7 +214,14 @@
     </Placemark>
   
     <Placemark>
-      <name>Untitled Placemark</name>
+      <name>JK1204</name>
+      <description>
+        stCounty: CO,EL PASO
+        vertDatum: NAVD 88
+        vertSource: VERTCON3
+        condition: MARK NOT FOUND
+        setting: 80 = SET IN A BOULDER
+      </description>
       <LookAt>
         <longitude>-104.8729176000</longitude>
         <latitude>38.9951469694</latitude>
@@ -175,7 +231,7 @@
         <range>23947.66089891575</range>
         <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
       </LookAt>
-      <styleUrl>#m_ylw-pushpin</styleUrl>
+      <styleUrl>#sn_placemark_circle</styleUrl>
       <Point>
         <gx:drawOrder>1</gx:drawOrder>
         <coordinates>-104.8729176000,38.9951469694,0</coordinates>
