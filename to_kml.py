@@ -4,20 +4,10 @@
 def template(markers):
   return f'''<?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
-<Document>
-    <Style id="redIcon">
-        <IconStyle>
-            <color>ff0000</color>
-            <colorMode>normal</colorMode>
-            <scale>5</scale>
-            <Icon>
-                <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
-            </Icon>
-        </IconStyle>
-    </Style>
-    <name>test5.kml</name>
-    {markers}
-</Document>
+    <Document>
+        <name>test.kml</name>
+        {markers}
+    </Document>
 </kml>
 '''
 
@@ -27,9 +17,6 @@ def create_marker(attributes):
         <Placemark>
             <Style>
                 <IconStyle>
-                    <color>ff0000</color>
-                    <colorMode>normal</colorMode>
-                    <scale>5</scale>
                     <Icon>
                         <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
                     </Icon>
@@ -37,11 +24,13 @@ def create_marker(attributes):
             </Style>
             <name>{attributes['pid']}</name>
             <description>
-                stCounty: {attributes['stCounty']}
-                vertDatum: {attributes['vertDatum']}
-                vertSource: {attributes['vertSource']}
-                condition: {attributes['condition']}
-                setting: {attributes['setting']}
+                stCounty: {attributes['stCounty']}<br/>
+                vertDatum: {attributes['vertDatum']}<br/>
+                vertSource: {attributes['vertSource']}<br/>
+                condition: {attributes['condition']}<br/>
+                setting: {attributes['setting']}<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID={attributes['pid']}
             </description>
             <LookAt>
                 <longitude>{attributes['lon']}</longitude>
