@@ -7,11 +7,6 @@ user_lat = input('Enter a latitude for the area: ')
 user_lon = input('Enter a longitude for the area: ')
 user_rad = input('Enter a radius for the area: ')
 
-# hard_min_lat = '38.914018'
-# hard_max_lat = '38.954775'
-# hard_min_lon = '-104.821406'
-# hard_max_lon = '-104.885727'
-
 api_url_rad = f'https://geodesy.noaa.gov/api/nde/radial?lat={user_lat}&lon={user_lon}&radius={user_rad}'
 
 response = requests.get(api_url_rad)
@@ -63,6 +58,7 @@ with open('test.kml', 'w') as f:
 
 ##TODO:
 #### different symbols for different types of desireable points
+    #dictionary matching the marker?
+    
 #### add input to determine what level of accuracy
-#### Add URL to point
 

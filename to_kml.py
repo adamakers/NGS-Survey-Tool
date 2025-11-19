@@ -6,15 +6,75 @@ def template(markers):
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
     <Document>
         <name>test.kml</name>
+
+         <Style id="redPushpin">
+            <IconStyle>
+                <scale>1.2</scale>
+                <Icon>
+                    <href>http://maps.google.com/mapfiles/kml/pushpin/red-pushpin.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle>
+                <scale>1.3</scale>
+            </LabelStyle>
+        </Style>
+        
+        <Style id="greenCircle">
+            <IconStyle>
+                <scale>1.1</scale>
+                <Icon>
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle>
+                <scale>1.1</scale>
+            </LabelStyle>
+        </Style>
+                
+        <Style id="blueStar">
+            <IconStyle>
+                <scale>1.2</scale>
+                <Icon>
+                    <href>http://maps.google.com/mapfiles/kml/shapes/star.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle>
+                <scale>1.0</scale>
+            </LabelStyle>
+        </Style>
+
+        <Style id="yellowSquare">
+            <IconStyle>
+                <scale>1.1</scale>
+                <Icon>
+                    <href>http://maps.google.com/mapfiles/kml/shapes/square.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle>
+                <scale>1.0</scale>
+            </LabelStyle>
+        </Style>
+
+        <Style id="purpleDiamond">
+            <IconStyle>
+                <scale>1.1</scale>
+                <Icon>
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_diamond.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle>
+                <scale>1.1</scale>
+            </LabelStyle>
+        </Style>
+
+
         {markers}
     </Document>
 </kml>
 '''
 
-#creates a single marker
-def create_marker(attributes):
-    return f'''
-        <Placemark>
+def markerStyle():
+   return '''
             <Style>
                 <IconStyle>
                     <Icon>
@@ -22,7 +82,14 @@ def create_marker(attributes):
                     </Icon>
                 </IconStyle>
             </Style>
+'''
+
+#creates a single marker
+def create_marker(attributes):
+    return f'''
+        <Placemark>
             <name>{attributes['pid']}</name>
+            <styleUrl>#redPushpin</styleUrl>
             <description>
                 stCounty: {attributes['stCounty']}<br/>
                 vertDatum: {attributes['vertDatum']}<br/>
