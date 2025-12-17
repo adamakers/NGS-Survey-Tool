@@ -3,9 +3,13 @@ import requests, to_kml
 ngs_monuments = ''
 markers = ''
 count = 0
-user_lat = input('Enter a latitude for the area: ')
-user_lon = input('Enter a longitude for the area: ')
-user_rad = input('Enter a radius for the area: ')
+# user_lat = input('Enter a latitude for the area: ')
+# user_lon = input('Enter a longitude for the area: ')
+# user_rad = input('Enter a radius for the area: ')
+
+user_lat = '38.921944'
+user_lon = '-104.754167'
+user_rad = '10'
 
 api_url_rad = f'https://geodesy.noaa.gov/api/nde/radial?lat={user_lat}&lon={user_lon}&radius={user_rad}'
 
@@ -59,6 +63,9 @@ with open('test.kml', 'w') as f:
 ##TODO:
 #### different symbols for different types of desireable points
     #dictionary matching the marker?
-    
+
 #### add input to determine what level of accuracy
+### Convert DMS to decimal
+
+
 

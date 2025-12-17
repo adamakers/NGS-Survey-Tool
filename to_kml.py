@@ -7,20 +7,24 @@ def template(markers):
     <Document>
         <name>test.kml</name>
 
-         <Style id="redPushpin">
+         <Style id="redCircle">
             <IconStyle>
+                <!-- Color is aabbggrr (alpha, blue, green, red) -->
+                <color>ff0000ff</color>
                 <scale>1.2</scale>
                 <Icon>
-                    <href>http://maps.google.com/mapfiles/kml/pushpin/red-pushpin.png</href>
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
                 </Icon>
             </IconStyle>
             <LabelStyle>
-                <scale>1.3</scale>
+                <scale>1.1</scale>
             </LabelStyle>
         </Style>
         
         <Style id="greenCircle">
             <IconStyle>
+                <!-- Color is aabbggrr (alpha, blue, green, red) -->
+                <color>ff65f527</color>
                 <scale>1.1</scale>
                 <Icon>
                     <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
@@ -33,6 +37,8 @@ def template(markers):
                 
         <Style id="blueStar">
             <IconStyle>
+                <!-- Color is aabbggrr (alpha, blue, green, red) -->
+                <color>ffff1f1f</color>
                 <scale>1.2</scale>
                 <Icon>
                     <href>http://maps.google.com/mapfiles/kml/shapes/star.png</href>
@@ -45,6 +51,7 @@ def template(markers):
 
         <Style id="yellowSquare">
             <IconStyle>
+                <color>ff4af9ff</color>
                 <scale>1.1</scale>
                 <Icon>
                     <href>http://maps.google.com/mapfiles/kml/shapes/square.png</href>
@@ -55,33 +62,10 @@ def template(markers):
             </LabelStyle>
         </Style>
 
-        <Style id="purpleDiamond">
-            <IconStyle>
-                <scale>1.1</scale>
-                <Icon>
-                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_diamond.png</href>
-                </Icon>
-            </IconStyle>
-            <LabelStyle>
-                <scale>1.1</scale>
-            </LabelStyle>
-        </Style>
-
 
         {markers}
     </Document>
 </kml>
-'''
-
-def markerStyle():
-   return '''
-            <Style>
-                <IconStyle>
-                    <Icon>
-                        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
-                    </Icon>
-                </IconStyle>
-            </Style>
 '''
 
 #creates a single marker
@@ -89,14 +73,14 @@ def create_marker(attributes):
     return f'''
         <Placemark>
             <name>{attributes['pid']}</name>
-            <styleUrl>#redPushpin</styleUrl>
+            <styleUrl>#redCircle</styleUrl>
             <description>
                 stCounty: {attributes['stCounty']}<br/>
                 vertDatum: {attributes['vertDatum']}<br/>
                 vertSource: {attributes['vertSource']}<br/>
                 condition: {attributes['condition']}<br/>
                 setting: {attributes['setting']}<br/>
-                View link below in web browser and not Firefox
+                View link below in web browser and not Google Earth
                 URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID={attributes['pid']}
             </description>
             <LookAt>

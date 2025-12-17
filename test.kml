@@ -3,19 +3,24 @@
     <Document>
         <name>test.kml</name>
 
-         <Style id="redPushpin">
+         <Style id="redCircle">
             <IconStyle>
+                <!-- Color is aabbggrr (alpha, blue, green, red) -->
+                <color>ff0000ff</color>
                 <scale>1.2</scale>
                 <Icon>
-                    <href>http://maps.google.com/mapfiles/kml/pushpin/red-pushpin.png</href>
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
                 </Icon>
             </IconStyle>
             <LabelStyle>
-                <scale>1.3</scale>
+                <scale>1.1</scale>
             </LabelStyle>
         </Style>
-                <Style id="greenCircle">
+        
+        <Style id="greenCircle">
             <IconStyle>
+                <!-- Color is aabbggrr (alpha, blue, green, red) -->
+                <color>ff65f527</color>
                 <scale>1.1</scale>
                 <Icon>
                     <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
@@ -28,6 +33,8 @@
                 
         <Style id="blueStar">
             <IconStyle>
+                <!-- Color is aabbggrr (alpha, blue, green, red) -->
+                <color>ffff1f1f</color>
                 <scale>1.2</scale>
                 <Icon>
                     <href>http://maps.google.com/mapfiles/kml/shapes/star.png</href>
@@ -40,6 +47,7 @@
 
         <Style id="yellowSquare">
             <IconStyle>
+                <color>ff4af9ff</color>
                 <scale>1.1</scale>
                 <Icon>
                     <href>http://maps.google.com/mapfiles/kml/shapes/square.png</href>
@@ -50,25 +58,659 @@
             </LabelStyle>
         </Style>
 
-        <Style id="purpleDiamond">
-            <IconStyle>
-                <scale>1.1</scale>
-                <Icon>
-                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_diamond.png</href>
-                </Icon>
-            </IconStyle>
-            <LabelStyle>
-                <scale>1.1</scale>
-            </LabelStyle>
-        </Style>
-
-
-
 
         
         <Placemark>
+            <name>KK1651</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: GPS OBS<br/>
+                condition: GOOD<br/>
+                setting: 7 = SET IN TOP OF CONCRETE MONUMENT<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=KK1651
+            </description>
+            <LookAt>
+                <longitude>-104.7794323750</longitude>
+                <latitude>39.0019632639</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.7794323750,39.0019632639,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
+            <name>JK1200</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: VERTCON3<br/>
+                condition: POOR<br/>
+                setting: 7 = SET IN TOP OF CONCRETE MONUMENT<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK1200
+            </description>
+            <LookAt>
+                <longitude>-104.7599330861</longitude>
+                <latitude>38.9579396694</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.7599330861,38.9579396694,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
+            <name>JK1165</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: VERTCON3<br/>
+                condition: MARK NOT FOUND<br/>
+                setting: 7 = SET IN TOP OF CONCRETE MONUMENT<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK1165
+            </description>
+            <LookAt>
+                <longitude>-104.7316656889</longitude>
+                <latitude>38.9146399722</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.7316656889,38.9146399722,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
+            <name>JK1365</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: RESET<br/>
+                condition: GOOD<br/>
+                setting: 7 = SET IN TOP OF CONCRETE MONUMENT<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK1365
+            </description>
+            <LookAt>
+                <longitude>-104.7205456000</longitude>
+                <latitude>38.8687067333</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.7205456000,38.8687067333,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
+            <name>JK1170</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: VERTCON3<br/>
+                condition: MARK NOT FOUND<br/>
+                setting: 7 = SET IN TOP OF CONCRETE MONUMENT<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK1170
+            </description>
+            <LookAt>
+                <longitude>-104.7290235444</longitude>
+                <latitude>38.9100515139</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.7290235444,38.9100515139,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
+            <name>JK0235</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: ADJUSTED<br/>
+                condition: MARK NOT FOUND<br/>
+                setting: 17 = SET INTO TOP OF METAL PIPE DRIVEN INTO GROUND<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK0235
+            </description>
+            <LookAt>
+                <longitude>-104.7202777778</longitude>
+                <latitude>38.8688888889</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.7202777778,38.8688888889,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
+            <name>DM8468</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: GPS OBS<br/>
+                condition: MONUMENTED<br/>
+                setting: 59 = STAINLESS STEEL ROD IN SLEEVE (10 FT.+)<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=DM8468
+            </description>
+            <LookAt>
+                <longitude>-104.7193358528</longitude>
+                <latitude>38.8980140361</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.7193358528,38.8980140361,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
+            <name>AE4288</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: GPS OBS<br/>
+                condition: GOOD<br/>
+                setting: 7 = SET IN TOP OF CONCRETE MONUMENT<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=AE4288
+            </description>
+            <LookAt>
+                <longitude>-104.7129144389</longitude>
+                <latitude>38.9984260889</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.7129144389,38.9984260889,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
+            <name>JK1167</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: VERTCON3<br/>
+                condition: MARK NOT FOUND<br/>
+                setting: 7 = SET IN TOP OF CONCRETE MONUMENT<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK1167
+            </description>
+            <LookAt>
+                <longitude>-104.6865387111</longitude>
+                <latitude>38.8826188167</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.6865387111,38.8826188167,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
+            <name>JK0236</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: ADJUSTED<br/>
+                condition: GOOD<br/>
+                setting: 17 = SET INTO TOP OF METAL PIPE DRIVEN INTO GROUND<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK0236
+            </description>
+            <LookAt>
+                <longitude>-104.6830555556</longitude>
+                <latitude>38.8829444444</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.6830555556,38.8829444444,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
+            <name>JK1161</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: VERTCON3<br/>
+                condition: GOOD<br/>
+                setting: 7 = SET IN TOP OF CONCRETE MONUMENT<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK1161
+            </description>
+            <LookAt>
+                <longitude>-104.6575606889</longitude>
+                <latitude>38.8660641417</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.6575606889,38.8660641417,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
+            <name>JK1151</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: SCALED<br/>
+                condition: MONUMENTED<br/>
+                setting: 7 = SET IN TOP OF CONCRETE MONUMENT<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK1151
+            </description>
+            <LookAt>
+                <longitude>-104.6188427306</longitude>
+                <latitude>38.8767064278</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.6188427306,38.8767064278,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
+            <name>JK0238</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: ADJUSTED<br/>
+                condition: MARK NOT FOUND<br/>
+                setting: 7 = SET IN TOP OF CONCRETE MONUMENT<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK0238
+            </description>
+            <LookAt>
+                <longitude>-104.6138888889</longitude>
+                <latitude>38.9297222222</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.6138888889,38.9297222222,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
+            <name>JK1146</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: VERTCON3<br/>
+                condition: GOOD<br/>
+                setting: 7 = SET IN TOP OF CONCRETE MONUMENT<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK1146
+            </description>
+            <LookAt>
+                <longitude>-104.6078928111</longitude>
+                <latitude>38.9110144528</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.6078928111,38.9110144528,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
+            <name>JK1152</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: SCALED<br/>
+                condition: MARK NOT FOUND<br/>
+                setting: 7 = SET IN TOP OF CONCRETE MONUMENT<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK1152
+            </description>
+            <LookAt>
+                <longitude>-104.6248108472</longitude>
+                <latitude>38.9993509361</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.6248108472,38.9993509361,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
+            <name>JK1150</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: VERTCON3<br/>
+                condition: GOOD<br/>
+                setting: 7 = SET IN TOP OF CONCRETE MONUMENT<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK1150
+            </description>
+            <LookAt>
+                <longitude>-104.6179237611</longitude>
+                <latitude>38.9727516583</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.6179237611,38.9727516583,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
+            <name>JK1153</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: GPS OBS<br/>
+                condition: GOOD<br/>
+                setting: 7 = SET IN TOP OF CONCRETE MONUMENT<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK1153
+            </description>
+            <LookAt>
+                <longitude>-104.5933783917</longitude>
+                <latitude>38.8698102306</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.5933783917,38.8698102306,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
+            <name>JK0239</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: GPS OBS<br/>
+                condition: GOOD<br/>
+                setting: 7 = SET IN TOP OF CONCRETE MONUMENT<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK0239
+            </description>
+            <LookAt>
+                <longitude>-104.5789457389</longitude>
+                <latitude>38.9553094139</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.5789457389,38.9553094139,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
+            <name>JK1357</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: GPS OBS<br/>
+                condition: GOOD<br/>
+                setting: 59 = STAINLESS STEEL ROD IN SLEEVE (10 FT.+)<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK1357
+            </description>
+            <LookAt>
+                <longitude>-104.5741069472</longitude>
+                <latitude>38.9530875944</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.5741069472,38.9530875944,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
+            <name>AE4295</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: GPS OBS<br/>
+                condition: MARK NOT FOUND<br/>
+                setting: 31 = SET IN A PAVEMENT SUCH AS STREET SIDEWALK CURB ETC.<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=AE4295
+            </description>
+            <LookAt>
+                <longitude>-104.7201802778</longitude>
+                <latitude>38.9219132111</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.7201802778,38.9219132111,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
+            <name>JK1168</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: VERTCON3<br/>
+                condition: MARK NOT FOUND<br/>
+                setting: 66 = SET IN ROCK OUTCROP<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK1168
+            </description>
+            <LookAt>
+                <longitude>-104.7119419333</longitude>
+                <latitude>38.9424426750</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.7119419333,38.9424426750,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
+            <name>KK2070</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: SCALED<br/>
+                condition: GOOD<br/>
+                setting: 80 = SET IN A BOULDER<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=KK2070
+            </description>
+            <LookAt>
+                <longitude>-104.7093093639</longitude>
+                <latitude>39.0445625028</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.7093093639,39.0445625028,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
+            <name>KK1644</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: GPS OBS<br/>
+                condition: GOOD<br/>
+                setting: 7 = SET IN TOP OF CONCRETE MONUMENT<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=KK1644
+            </description>
+            <LookAt>
+                <longitude>-104.6077260000</longitude>
+                <latitude>39.0032323750</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.6077260000,39.0032323750,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
+            <name>KK1647</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: VERTCON3<br/>
+                condition: GOOD<br/>
+                setting: 17 = SET INTO TOP OF METAL PIPE DRIVEN INTO GROUND<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=KK1647
+            </description>
+            <LookAt>
+                <longitude>-104.6075087694</longitude>
+                <latitude>39.0024506556</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.6075087694,39.0024506556,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
             <name>JK0234</name>
-            <styleUrl>#redPushpin</styleUrl>
+            <styleUrl>#redCircle</styleUrl>
             <description>
                 stCounty: CO,EL PASO<br/>
                 vertDatum: NAVD 88<br/>
@@ -95,7 +737,7 @@
         </Placemark>
         <Placemark>
             <name>JK0233</name>
-            <styleUrl>#redPushpin</styleUrl>
+            <styleUrl>#redCircle</styleUrl>
             <description>
                 stCounty: CO,EL PASO<br/>
                 vertDatum: NAVD 88<br/>
@@ -122,7 +764,7 @@
         </Placemark>
         <Placemark>
             <name>JK0232</name>
-            <styleUrl>#redPushpin</styleUrl>
+            <styleUrl>#redCircle</styleUrl>
             <description>
                 stCounty: CO,EL PASO<br/>
                 vertDatum: NAVD 88<br/>
@@ -148,8 +790,1088 @@
             <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
         </Placemark>
         <Placemark>
+            <name>JK1162</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: VERTCON3<br/>
+                condition: MARK NOT FOUND<br/>
+                setting: 7 = SET IN TOP OF CONCRETE MONUMENT<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK1162
+            </description>
+            <LookAt>
+                <longitude>-104.7389861056</longitude>
+                <latitude>38.8709804278</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.7389861056,38.8709804278,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
+            <name>JK1212</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: GPS OBS<br/>
+                condition: GOOD<br/>
+                setting: 66 = SET IN ROCK OUTCROP<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK1212
+            </description>
+            <LookAt>
+                <longitude>-104.7757400500</longitude>
+                <latitude>38.8725470833</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.7757400500,38.8725470833,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
+            <name>JK1169</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: VERTCON3<br/>
+                condition: MONUMENTED<br/>
+                setting: 7 = SET IN TOP OF CONCRETE MONUMENT<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK1169
+            </description>
+            <LookAt>
+                <longitude>-104.7282005917</longitude>
+                <latitude>38.8756842333</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.7282005917,38.8756842333,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
+            <name>JK1201</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: VERTCON3<br/>
+                condition: MARK NOT FOUND<br/>
+                setting: 35 = SET IN A MAT FOUNDATION OR CONCRETE SLAB OTHER THAN PAVEMENT<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK1201
+            </description>
+            <LookAt>
+                <longitude>-104.8184685361</longitude>
+                <latitude>38.8852761694</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.8184685361,38.8852761694,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
+            <name>DL2021</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: ADJUSTED<br/>
+                condition: GOOD<br/>
+                setting: 59 = STAINLESS STEEL ROD IN SLEEVE (10 FT.+)<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=DL2021
+            </description>
+            <LookAt>
+                <longitude>-104.8244444444</longitude>
+                <latitude>38.9033333333</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.8244444444,38.9033333333,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
+            <name>AE4290</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: GPS OBS<br/>
+                condition: GOOD<br/>
+                setting: 49 = STAINLESS STEEL ROD W/O SLEEVE (10 FT.+)<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=AE4290
+            </description>
+            <LookAt>
+                <longitude>-104.8210789361</longitude>
+                <latitude>38.9118711917</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.8210789361,38.9118711917,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
+            <name>DL2022</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: ADJUSTED<br/>
+                condition: GOOD<br/>
+                setting: 59 = STAINLESS STEEL ROD IN SLEEVE (10 FT.+)<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=DL2022
+            </description>
+            <LookAt>
+                <longitude>-104.8202777778</longitude>
+                <latitude>38.9208333333</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.8202777778,38.9208333333,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
+            <name>JK0853</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: ADJUSTED<br/>
+                condition: GOOD<br/>
+                setting: 49 = STAINLESS STEEL ROD W/O SLEEVE (10 FT.+)<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK0853
+            </description>
+            <LookAt>
+                <longitude>-104.8138888889</longitude>
+                <latitude>38.9213888889</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.8138888889,38.9213888889,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
+            <name>JK0153</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: ADJUSTED<br/>
+                condition: POOR<br/>
+                setting: 36 = SET IN A MASSIVE STRUCTURE<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK0153
+            </description>
+            <LookAt>
+                <longitude>-104.8172500000</longitude>
+                <latitude>38.9269444444</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.8172500000,38.9269444444,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
+            <name>DF8532</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: ADJUSTED<br/>
+                condition: GOOD<br/>
+                setting: 37 = SET IN A MASSIVE RETAINING WALL<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=DF8532
+            </description>
+            <LookAt>
+                <longitude>-104.8133333333</longitude>
+                <latitude>38.9386111111</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.8133333333,38.9386111111,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
+            <name>JK0154</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: ADJUSTED<br/>
+                condition: GOOD<br/>
+                setting: 34 = SET IN THE FOOTINGS OF SMALL/MEDIUM STRUCTURES<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK0154
+            </description>
+            <LookAt>
+                <longitude>-104.8218166667</longitude>
+                <latitude>38.9389833333</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.8218166667,38.9389833333,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
+            <name>JK0855</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: ADJUSTED<br/>
+                condition: GOOD<br/>
+                setting: 49 = STAINLESS STEEL ROD W/O SLEEVE (10 FT.+)<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK0855
+            </description>
+            <LookAt>
+                <longitude>-104.8133333333</longitude>
+                <latitude>38.9450000000</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.8133333333,38.9450000000,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
+            <name>JK0155</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: ADJUSTED<br/>
+                condition: GOOD<br/>
+                setting: 32 = SET IN A RETAINING WALL OR CONCRETE LEDGE<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK0155
+            </description>
+            <LookAt>
+                <longitude>-104.8291944444</longitude>
+                <latitude>38.9487222222</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.8291944444,38.9487222222,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
+            <name>DL2023</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: ADJUSTED<br/>
+                condition: GOOD<br/>
+                setting: 59 = STAINLESS STEEL ROD IN SLEEVE (10 FT.+)<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=DL2023
+            </description>
+            <LookAt>
+                <longitude>-104.8099444444</longitude>
+                <latitude>38.9531388889</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.8099444444,38.9531388889,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
+            <name>JK0856</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: ADJUSTED<br/>
+                condition: MARK NOT FOUND<br/>
+                setting: 49 = STAINLESS STEEL ROD W/O SLEEVE (10 FT.+)<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK0856
+            </description>
+            <LookAt>
+                <longitude>-104.8044444444</longitude>
+                <latitude>38.9544444444</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.8044444444,38.9544444444,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
+            <name>JK0156</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: POSTED<br/>
+                condition: GOOD<br/>
+                setting: 36 = SET IN A MASSIVE STRUCTURE<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK0156
+            </description>
+            <LookAt>
+                <longitude>-104.8366666667</longitude>
+                <latitude>38.9588888889</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.8366666667,38.9588888889,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
+            <name>JK0157</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: ADJUSTED<br/>
+                condition: MARK NOT FOUND<br/>
+                setting: 7 = SET IN TOP OF CONCRETE MONUMENT<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK0157
+            </description>
+            <LookAt>
+                <longitude>-104.8363888889</longitude>
+                <latitude>38.9605555556</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.8363888889,38.9605555556,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
+            <name>JK0857</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: ADJUSTED<br/>
+                condition: GOOD<br/>
+                setting: 49 = STAINLESS STEEL ROD W/O SLEEVE (10 FT.+)<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK0857
+            </description>
+            <LookAt>
+                <longitude>-104.8050000000</longitude>
+                <latitude>38.9680555556</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.8050000000,38.9680555556,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
+            <name>JK0162</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: ADJUSTED<br/>
+                condition: GOOD<br/>
+                setting: 7 = SET IN TOP OF CONCRETE MONUMENT<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK0162
+            </description>
+            <LookAt>
+                <longitude>-104.8128388889</longitude>
+                <latitude>38.9695805556</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.8128388889,38.9695805556,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
+            <name>JK0161</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: ADJUSTED<br/>
+                condition: GOOD<br/>
+                setting: 7 = SET IN TOP OF CONCRETE MONUMENT<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK0161
+            </description>
+            <LookAt>
+                <longitude>-104.8126333333</longitude>
+                <latitude>38.9696000000</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.8126333333,38.9696000000,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
+            <name>JK0160</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: ADJUSTED<br/>
+                condition: GOOD<br/>
+                setting: 7 = SET IN TOP OF CONCRETE MONUMENT<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK0160
+            </description>
+            <LookAt>
+                <longitude>-104.8128335611</longitude>
+                <latitude>38.9696734528</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.8128335611,38.9696734528,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
+            <name>JK0159</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: ADJUSTED<br/>
+                condition: MARK NOT FOUND<br/>
+                setting: 7 = SET IN TOP OF CONCRETE MONUMENT<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK0159
+            </description>
+            <LookAt>
+                <longitude>-104.8133333333</longitude>
+                <latitude>38.9705555556</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.8133333333,38.9705555556,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
+            <name>JK0163</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: ADJUSTED<br/>
+                condition: GOOD<br/>
+                setting: 32 = SET IN A RETAINING WALL OR CONCRETE LEDGE<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK0163
+            </description>
+            <LookAt>
+                <longitude>-104.8333333333</longitude>
+                <latitude>38.9741666667</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.8333333333,38.9741666667,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
+            <name>JK0858</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: ADJUSTED<br/>
+                condition: GOOD<br/>
+                setting: 49 = STAINLESS STEEL ROD W/O SLEEVE (10 FT.+)<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK0858
+            </description>
+            <LookAt>
+                <longitude>-104.8123980667</longitude>
+                <latitude>38.9829260333</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.8123980667,38.9829260333,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
+            <name>JK0164</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: ADJUSTED<br/>
+                condition: MARK NOT FOUND<br/>
+                setting: 7 = SET IN TOP OF CONCRETE MONUMENT<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK0164
+            </description>
+            <LookAt>
+                <longitude>-104.8308333333</longitude>
+                <latitude>38.9852777778</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.8308333333,38.9852777778,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
+            <name>JK1199</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum:  <br/>
+                vertSource:  <br/>
+                condition: FIRST OBSERVED<br/>
+                setting:  <br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK1199
+            </description>
+            <LookAt>
+                <longitude>-104.8128777361</longitude>
+                <latitude>38.9916798444</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.8128777361,38.9916798444,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
+            <name>JK0165</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: ADJUSTED<br/>
+                condition: GOOD<br/>
+                setting: 36 = SET IN A MASSIVE STRUCTURE<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK0165
+            </description>
+            <LookAt>
+                <longitude>-104.8322222222</longitude>
+                <latitude>38.9961111111</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.8322222222,38.9961111111,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
+            <name>JK0859</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: ADJUSTED<br/>
+                condition: GOOD<br/>
+                setting: 49 = STAINLESS STEEL ROD W/O SLEEVE (10 FT.+)<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK0859
+            </description>
+            <LookAt>
+                <longitude>-104.8162222222</longitude>
+                <latitude>38.9965555556</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.8162222222,38.9965555556,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
+            <name>JK0166</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: ADJUSTED<br/>
+                condition: MARK NOT FOUND<br/>
+                setting: 7 = SET IN TOP OF CONCRETE MONUMENT<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK0166
+            </description>
+            <LookAt>
+                <longitude>-104.8316666667</longitude>
+                <latitude>38.9972222222</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.8316666667,38.9972222222,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
+            <name>KK1652</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: VERTCON3<br/>
+                condition: GOOD<br/>
+                setting: 7 = SET IN TOP OF CONCRETE MONUMENT<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=KK1652
+            </description>
+            <LookAt>
+                <longitude>-104.8195273861</longitude>
+                <latitude>39.0009084750</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.8195273861,39.0009084750,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
+            <name>KK1307</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: ADJUSTED<br/>
+                condition: GOOD<br/>
+                setting: 49 = STAINLESS STEEL ROD W/O SLEEVE (10 FT.+)<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=KK1307
+            </description>
+            <LookAt>
+                <longitude>-104.8234166667</longitude>
+                <latitude>39.0104722222</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.8234166667,39.0104722222,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
+            <name>KK1308</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: ADJUSTED<br/>
+                condition: GOOD<br/>
+                setting: 49 = STAINLESS STEEL ROD W/O SLEEVE (10 FT.+)<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=KK1308
+            </description>
+            <LookAt>
+                <longitude>-104.8344444444</longitude>
+                <latitude>39.0247222222</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.8344444444,39.0247222222,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
+            <name>KK0159</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: ADJUSTED<br/>
+                condition: GOOD<br/>
+                setting: 36 = SET IN A MASSIVE STRUCTURE<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=KK0159
+            </description>
+            <LookAt>
+                <longitude>-104.8475000000</longitude>
+                <latitude>39.0308333333</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.8475000000,39.0308333333,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
+            <name>KK1309</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: ADJUSTED<br/>
+                condition: GOOD<br/>
+                setting: 49 = STAINLESS STEEL ROD W/O SLEEVE (10 FT.+)<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=KK1309
+            </description>
+            <LookAt>
+                <longitude>-104.8416944444</longitude>
+                <latitude>39.0412777778</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.8416944444,39.0412777778,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
+            <name>KK0161</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: ADJUSTED<br/>
+                condition: GOOD<br/>
+                setting: 7 = SET IN TOP OF CONCRETE MONUMENT<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=KK0161
+            </description>
+            <LookAt>
+                <longitude>-104.8445479083</longitude>
+                <latitude>39.0443412750</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.8445479083,39.0443412750,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
+            <name>JK1235</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: VERTCON3<br/>
+                condition: GOOD<br/>
+                setting: 80 = SET IN A BOULDER<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK1235
+            </description>
+            <LookAt>
+                <longitude>-104.9349890750</longitude>
+                <latitude>38.9506669194</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.9349890750,38.9506669194,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
+            <name>JK0246</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: ADJUSTED<br/>
+                condition: MARK NOT FOUND<br/>
+                setting: 7 = SET IN TOP OF CONCRETE MONUMENT<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK0246
+            </description>
+            <LookAt>
+                <longitude>-104.9138888889</longitude>
+                <latitude>38.8552777778</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.9138888889,38.8552777778,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
+            <name>JK1385</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: GPS OBS<br/>
+                condition: GOOD<br/>
+                setting: 66 = SET IN ROCK OUTCROP<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK1385
+            </description>
+            <LookAt>
+                <longitude>-104.9114975444</longitude>
+                <latitude>38.8600144278</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.9114975444,38.8600144278,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
+            <name>JK1229</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: SCALED<br/>
+                condition: GOOD<br/>
+                setting: 0 = UNSPECIFIED SETTING<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK1229
+            </description>
+            <LookAt>
+                <longitude>-104.9082865028</longitude>
+                <latitude>38.8997106583</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.9082865028,38.8997106583,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
+            <name>JK1230</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: VERTCON3<br/>
+                condition: GOOD<br/>
+                setting: 66 = SET IN ROCK OUTCROP<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK1230
+            </description>
+            <LookAt>
+                <longitude>-104.9082814917</longitude>
+                <latitude>38.8997117806</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.9082814917,38.8997117806,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
             <name>JK0247</name>
-            <styleUrl>#redPushpin</styleUrl>
+            <styleUrl>#redCircle</styleUrl>
             <description>
                 stCounty: CO,EL PASO<br/>
                 vertDatum: NAVD 88<br/>
@@ -175,8 +1897,116 @@
             <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
         </Placemark>
         <Placemark>
+            <name>JK1232</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: VERTCON3<br/>
+                condition: POOR<br/>
+                setting: 66 = SET IN ROCK OUTCROP<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK1232
+            </description>
+            <LookAt>
+                <longitude>-104.8984634556</longitude>
+                <latitude>38.8766435611</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.8984634556,38.8766435611,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
+            <name>JK1231</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: VERTCON3<br/>
+                condition: GOOD<br/>
+                setting: 80 = SET IN A BOULDER<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK1231
+            </description>
+            <LookAt>
+                <longitude>-104.8760608972</longitude>
+                <latitude>38.8781166278</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.8760608972,38.8781166278,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
+            <name>AE4289</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: GPS OBS<br/>
+                condition: GOOD<br/>
+                setting: 7 = SET IN TOP OF CONCRETE MONUMENT<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=AE4289
+            </description>
+            <LookAt>
+                <longitude>-104.8869556778</longitude>
+                <latitude>38.9545463639</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.8869556778,38.9545463639,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
+            <name>JK1204</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: VERTCON3<br/>
+                condition: MARK NOT FOUND<br/>
+                setting: 80 = SET IN A BOULDER<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK1204
+            </description>
+            <LookAt>
+                <longitude>-104.8729176000</longitude>
+                <latitude>38.9951469694</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.8729176000,38.9951469694,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
             <name>JK0848</name>
-            <styleUrl>#redPushpin</styleUrl>
+            <styleUrl>#redCircle</styleUrl>
             <description>
                 stCounty: CO,EL PASO<br/>
                 vertDatum: NAVD 88<br/>
@@ -203,7 +2033,7 @@
         </Placemark>
         <Placemark>
             <name>JK0229</name>
-            <styleUrl>#redPushpin</styleUrl>
+            <styleUrl>#redCircle</styleUrl>
             <description>
                 stCounty: CO,EL PASO<br/>
                 vertDatum: NAVD 88<br/>
@@ -230,7 +2060,7 @@
         </Placemark>
         <Placemark>
             <name>DL2018</name>
-            <styleUrl>#redPushpin</styleUrl>
+            <styleUrl>#redCircle</styleUrl>
             <description>
                 stCounty: CO,EL PASO<br/>
                 vertDatum: NAVD 88<br/>
@@ -257,7 +2087,7 @@
         </Placemark>
         <Placemark>
             <name>JK0849</name>
-            <styleUrl>#redPushpin</styleUrl>
+            <styleUrl>#redCircle</styleUrl>
             <description>
                 stCounty: CO,EL PASO<br/>
                 vertDatum: NAVD 88<br/>
@@ -284,7 +2114,7 @@
         </Placemark>
         <Placemark>
             <name>JK0230</name>
-            <styleUrl>#redPushpin</styleUrl>
+            <styleUrl>#redCircle</styleUrl>
             <description>
                 stCounty: CO,EL PASO<br/>
                 vertDatum: NAVD 88<br/>
@@ -311,7 +2141,7 @@
         </Placemark>
         <Placemark>
             <name>JK0149</name>
-            <styleUrl>#redPushpin</styleUrl>
+            <styleUrl>#redCircle</styleUrl>
             <description>
                 stCounty: CO,EL PASO<br/>
                 vertDatum: NAVD 88<br/>
@@ -337,8 +2167,62 @@
             <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
         </Placemark>
         <Placemark>
+            <name>JK1203</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: VERTCON3<br/>
+                condition: MARK NOT FOUND<br/>
+                setting: 7 = SET IN TOP OF CONCRETE MONUMENT<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK1203
+            </description>
+            <LookAt>
+                <longitude>-104.8339776833</longitude>
+                <latitude>38.8825613944</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.8339776833,38.8825613944,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
+            <name>JK0850</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: ADJUSTED<br/>
+                condition: GOOD<br/>
+                setting: 49 = STAINLESS STEEL ROD W/O SLEEVE (10 FT.+)<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK0850
+            </description>
+            <LookAt>
+                <longitude>-104.8346111111</longitude>
+                <latitude>38.8870555556</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.8346111111,38.8870555556,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
             <name>DL2019</name>
-            <styleUrl>#redPushpin</styleUrl>
+            <styleUrl>#redCircle</styleUrl>
             <description>
                 stCounty: CO,EL PASO<br/>
                 vertDatum: NAVD 88<br/>
@@ -364,20 +2248,74 @@
             <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
         </Placemark>
         <Placemark>
-            <name>JK0837</name>
-            <styleUrl>#redPushpin</styleUrl>
+            <name>AA3639</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: VERTCON3<br/>
+                condition: GOOD<br/>
+                setting: 38 = SET IN THE ABUTMENT OR PIER OF A LARGE BRIDGE<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=AA3639
+            </description>
+            <LookAt>
+                <longitude>-104.8304666667</longitude>
+                <latitude>38.8823916667</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.8304666667,38.8823916667,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
+            <name>JK0851</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: ADJUSTED<br/>
+                condition: POOR<br/>
+                setting: 38 = SET IN THE ABUTMENT OR PIER OF A LARGE BRIDGE<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK0851
+            </description>
+            <LookAt>
+                <longitude>-104.8308333333</longitude>
+                <latitude>38.8969444444</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.8308333333,38.8969444444,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
+            <name>DL2020</name>
+            <styleUrl>#redCircle</styleUrl>
             <description>
                 stCounty: CO,EL PASO<br/>
                 vertDatum: NAVD 88<br/>
                 vertSource: ADJUSTED<br/>
                 condition: GOOD<br/>
-                setting: 38 = SET IN THE ABUTMENT OR PIER OF A LARGE BRIDGE<br/>
+                setting: 59 = STAINLESS STEEL ROD IN SLEEVE (10 FT.+)<br/>
                 View link below in web browser and not Firefox
-                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK0837
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=DL2020
             </description>
             <LookAt>
-                <longitude>-104.7602777778</longitude>
-                <latitude>38.7688888889</latitude>
+                <longitude>-104.8253754806</longitude>
+                <latitude>38.8914896194</latitude>
                 <altitude>0</altitude>
                 <heading>0.0</heading>
                 <tilt>0</tilt>
@@ -386,40 +2324,13 @@
             </LookAt>
             <Point>
                 <gx:drawOrder>1</gx:drawOrder>
-                <coordinates>-104.7602777778,38.7688888889,0</coordinates>
+                <coordinates>-104.8253754806,38.8914896194,0</coordinates>
             </Point>
             <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
         </Placemark>
         <Placemark>
-            <name>JK0180</name>
-            <styleUrl>#redPushpin</styleUrl>
-            <description>
-                stCounty: CO,EL PASO<br/>
-                vertDatum: NAVD 88<br/>
-                vertSource: ADJUSTED<br/>
-                condition: MARK NOT FOUND<br/>
-                setting: 17 = SET INTO TOP OF METAL PIPE DRIVEN INTO GROUND<br/>
-                View link below in web browser and not Firefox
-                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK0180
-            </description>
-            <LookAt>
-                <longitude>-104.7613888889</longitude>
-                <latitude>38.7688888889</latitude>
-                <altitude>0</altitude>
-                <heading>0.0</heading>
-                <tilt>0</tilt>
-                <range>23947.66089891575</range>
-                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-            </LookAt>
-            <Point>
-                <gx:drawOrder>1</gx:drawOrder>
-                <coordinates>-104.7613888889,38.7688888889,0</coordinates>
-            </Point>
-            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
-        </Placemark>
-        <Placemark>
-            <name>JK0179</name>
-            <styleUrl>#redPushpin</styleUrl>
+            <name>JK0151</name>
+            <styleUrl>#redCircle</styleUrl>
             <description>
                 stCounty: CO,EL PASO<br/>
                 vertDatum: NAVD 88<br/>
@@ -427,11 +2338,11 @@
                 condition: MARK NOT FOUND<br/>
                 setting: 7 = SET IN TOP OF CONCRETE MONUMENT<br/>
                 View link below in web browser and not Firefox
-                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK0179
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK0151
             </description>
             <LookAt>
-                <longitude>-104.7636111111</longitude>
-                <latitude>38.7702777778</latitude>
+                <longitude>-104.8250000000</longitude>
+                <latitude>38.8991666667</latitude>
                 <altitude>0</altitude>
                 <heading>0.0</heading>
                 <tilt>0</tilt>
@@ -440,13 +2351,472 @@
             </LookAt>
             <Point>
                 <gx:drawOrder>1</gx:drawOrder>
-                <coordinates>-104.7636111111,38.7702777778,0</coordinates>
+                <coordinates>-104.8250000000,38.8991666667,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
+            <name>JK0852</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: ADJUSTED<br/>
+                condition: GOOD<br/>
+                setting: 49 = STAINLESS STEEL ROD W/O SLEEVE (10 FT.+)<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK0852
+            </description>
+            <LookAt>
+                <longitude>-104.8261111111</longitude>
+                <latitude>38.9061111111</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.8261111111,38.9061111111,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
+            <name>KK0160</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: ADJUSTED<br/>
+                condition: MARK NOT FOUND<br/>
+                setting: 7 = SET IN TOP OF CONCRETE MONUMENT<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=KK0160
+            </description>
+            <LookAt>
+                <longitude>-104.8508333333</longitude>
+                <latitude>39.0430555556</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.8508333333,39.0430555556,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
+            <name>KK0164</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: GPS OBS<br/>
+                condition: GOOD<br/>
+                setting: 7 = SET IN TOP OF CONCRETE MONUMENT<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=KK0164
+            </description>
+            <LookAt>
+                <longitude>-104.8464526833</longitude>
+                <latitude>39.0470274167</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.8464526833,39.0470274167,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
+            <name>KK0163</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: ADJUSTED<br/>
+                condition: GOOD<br/>
+                setting: 7 = SET IN TOP OF CONCRETE MONUMENT<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=KK0163
+            </description>
+            <LookAt>
+                <longitude>-104.8462722222</longitude>
+                <latitude>39.0472250000</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.8462722222,39.0472250000,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
+            <name>KK0162</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: ADJUSTED<br/>
+                condition: GOOD<br/>
+                setting: 7 = SET IN TOP OF CONCRETE MONUMENT<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=KK0162
+            </description>
+            <LookAt>
+                <longitude>-104.8461250000</longitude>
+                <latitude>39.0469777778</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.8461250000,39.0469777778,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
+            <name>JK0222</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: ADJUSTED<br/>
+                condition: MARK NOT FOUND<br/>
+                setting: 7 = SET IN TOP OF CONCRETE MONUMENT<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK0222
+            </description>
+            <LookAt>
+                <longitude>-104.7033333333</longitude>
+                <latitude>38.8180555556</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.7033333333,38.8180555556,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
+            <name>JK0217</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: ADJUSTED<br/>
+                condition: MARK NOT FOUND<br/>
+                setting: 7 = SET IN TOP OF CONCRETE MONUMENT<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK0217
+            </description>
+            <LookAt>
+                <longitude>-104.7016666667</longitude>
+                <latitude>38.8241666667</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.7016666667,38.8241666667,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
+            <name>JK0218</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: ADJUSTED<br/>
+                condition: MARK NOT FOUND<br/>
+                setting: 36 = SET IN A MASSIVE STRUCTURE<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK0218
+            </description>
+            <LookAt>
+                <longitude>-104.7000000000</longitude>
+                <latitude>38.8236111111</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.7000000000,38.8236111111,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
+            <name>JK0216</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: ADJUSTED<br/>
+                condition: GOOD<br/>
+                setting: 7 = SET IN TOP OF CONCRETE MONUMENT<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK0216
+            </description>
+            <LookAt>
+                <longitude>-104.7011111111</longitude>
+                <latitude>38.8319444444</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.7011111111,38.8319444444,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
+            <name>JK0215</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: ADJUSTED<br/>
+                condition: MARK NOT FOUND<br/>
+                setting: 7 = SET IN TOP OF CONCRETE MONUMENT<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK0215
+            </description>
+            <LookAt>
+                <longitude>-104.7011111111</longitude>
+                <latitude>38.8361111111</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.7011111111,38.8361111111,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
+            <name>JK0219</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: ADJUSTED<br/>
+                condition: MARK NOT FOUND<br/>
+                setting: 36 = SET IN A MASSIVE STRUCTURE<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK0219
+            </description>
+            <LookAt>
+                <longitude>-104.6980555556</longitude>
+                <latitude>38.8230555556</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.6980555556,38.8230555556,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
+            <name>JK0214</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: ADJUSTED<br/>
+                condition: GOOD<br/>
+                setting: 7 = SET IN TOP OF CONCRETE MONUMENT<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK0214
+            </description>
+            <LookAt>
+                <longitude>-104.6973544139</longitude>
+                <latitude>38.8390943139</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.6973544139,38.8390943139,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
+            <name>AE4315</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: GPS OBS<br/>
+                condition: GOOD<br/>
+                setting: 59 = STAINLESS STEEL ROD IN SLEEVE (10 FT.+)<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=AE4315
+            </description>
+            <LookAt>
+                <longitude>-104.6829403083</longitude>
+                <latitude>38.8032496556</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.6829403083,38.8032496556,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
+            <name>AI5931</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: GPS OBS<br/>
+                condition: MONUMENTED<br/>
+                setting: 7 = SET IN TOP OF CONCRETE MONUMENT<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=AI5931
+            </description>
+            <LookAt>
+                <longitude>-104.6829417083</longitude>
+                <latitude>38.8127077806</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.6829417083,38.8127077806,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
+            <name>JK1158</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: VERTCON3<br/>
+                condition: MARK NOT FOUND<br/>
+                setting: 7 = SET IN TOP OF CONCRETE MONUMENT<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK1158
+            </description>
+            <LookAt>
+                <longitude>-104.6880313444</longitude>
+                <latitude>38.8461142861</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.6880313444,38.8461142861,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
+            <name>JK0223</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: ADJUSTED<br/>
+                condition: POOR<br/>
+                setting: 7 = SET IN TOP OF CONCRETE MONUMENT<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK0223
+            </description>
+            <LookAt>
+                <longitude>-104.6611750000</longitude>
+                <latitude>38.8375166667</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.6611750000,38.8375166667,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
+            <name>JK1367</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: RESET<br/>
+                condition: GOOD<br/>
+                setting: 7 = SET IN TOP OF CONCRETE MONUMENT<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK1367
+            </description>
+            <LookAt>
+                <longitude>-104.6229722222</longitude>
+                <latitude>38.8387222222</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.6229722222,38.8387222222,0</coordinates>
             </Point>
             <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
         </Placemark>
         <Placemark>
             <name>JK0838</name>
-            <styleUrl>#redPushpin</styleUrl>
+            <styleUrl>#redCircle</styleUrl>
             <description>
                 stCounty: CO,EL PASO<br/>
                 vertDatum: NAVD 88<br/>
@@ -472,8 +2842,143 @@
             <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
         </Placemark>
         <Placemark>
+            <name>AE4314</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: GPS OBS<br/>
+                condition: GOOD<br/>
+                setting: 59 = STAINLESS STEEL ROD IN SLEEVE (10 FT.+)<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=AE4314
+            </description>
+            <LookAt>
+                <longitude>-104.7114426417</longitude>
+                <latitude>38.8159627861</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.7114426417,38.8159627861,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
+            <name>JK0221</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: ADJUSTED<br/>
+                condition: GOOD<br/>
+                setting: 31 = SET IN A PAVEMENT SUCH AS STREET SIDEWALK CURB ETC.<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK0221
+            </description>
+            <LookAt>
+                <longitude>-104.7063888889</longitude>
+                <latitude>38.8205555556</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.7063888889,38.8205555556,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
+            <name>JK0220</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: ADJUSTED<br/>
+                condition: GOOD<br/>
+                setting: 7 = SET IN TOP OF CONCRETE MONUMENT<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK0220
+            </description>
+            <LookAt>
+                <longitude>-104.7067166667</longitude>
+                <latitude>38.8212000000</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.7067166667,38.8212000000,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
+            <name>DM8467</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: GPS OBS<br/>
+                condition: MONUMENTED<br/>
+                setting: 59 = STAINLESS STEEL ROD IN SLEEVE (10 FT.+)<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=DM8467
+            </description>
+            <LookAt>
+                <longitude>-104.7211122306</longitude>
+                <latitude>38.8282436111</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.7211122306,38.8282436111,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
+            <name>JK0213</name>
+            <styleUrl>#redCircle</styleUrl>
+            <description>
+                stCounty: CO,EL PASO<br/>
+                vertDatum: NAVD 88<br/>
+                vertSource: RESET<br/>
+                condition: MARK NOT FOUND<br/>
+                setting: 7 = SET IN TOP OF CONCRETE MONUMENT<br/>
+                View link below in web browser and not Firefox
+                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK0213
+            </description>
+            <LookAt>
+                <longitude>-104.7108333333</longitude>
+                <latitude>38.8391666667</latitude>
+                <altitude>0</altitude>
+                <heading>0.0</heading>
+                <tilt>0</tilt>
+                <range>23947.66089891575</range>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <Point>
+                <gx:drawOrder>1</gx:drawOrder>
+                <coordinates>-104.7108333333,38.8391666667,0</coordinates>
+            </Point>
+            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+        </Placemark>
+        <Placemark>
             <name>JK0212</name>
-            <styleUrl>#redPushpin</styleUrl>
+            <styleUrl>#redCircle</styleUrl>
             <description>
                 stCounty: CO,EL PASO<br/>
                 vertDatum: NAVD 88<br/>
@@ -499,251 +3004,8 @@
             <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
         </Placemark>
         <Placemark>
-            <name>JK0864</name>
-            <styleUrl>#redPushpin</styleUrl>
-            <description>
-                stCounty: CO,EL PASO<br/>
-                vertDatum: NAVD 88<br/>
-                vertSource: ADJUSTED<br/>
-                condition: MONUMENTED<br/>
-                setting: 49 = STAINLESS STEEL ROD W/O SLEEVE (10 FT.+)<br/>
-                View link below in web browser and not Firefox
-                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK0864
-            </description>
-            <LookAt>
-                <longitude>-104.7933333333</longitude>
-                <latitude>38.7427777778</latitude>
-                <altitude>0</altitude>
-                <heading>0.0</heading>
-                <tilt>0</tilt>
-                <range>23947.66089891575</range>
-                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-            </LookAt>
-            <Point>
-                <gx:drawOrder>1</gx:drawOrder>
-                <coordinates>-104.7933333333,38.7427777778,0</coordinates>
-            </Point>
-            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
-        </Placemark>
-        <Placemark>
-            <name>JK0863</name>
-            <styleUrl>#redPushpin</styleUrl>
-            <description>
-                stCounty: CO,EL PASO<br/>
-                vertDatum: NAVD 88<br/>
-                vertSource: ADJUSTED<br/>
-                condition: MARK NOT FOUND<br/>
-                setting:  <br/>
-                View link below in web browser and not Firefox
-                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK0863
-            </description>
-            <LookAt>
-                <longitude>-104.7983333333</longitude>
-                <latitude>38.7502777778</latitude>
-                <altitude>0</altitude>
-                <heading>0.0</heading>
-                <tilt>0</tilt>
-                <range>23947.66089891575</range>
-                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-            </LookAt>
-            <Point>
-                <gx:drawOrder>1</gx:drawOrder>
-                <coordinates>-104.7983333333,38.7502777778,0</coordinates>
-            </Point>
-            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
-        </Placemark>
-        <Placemark>
-            <name>JK0862</name>
-            <styleUrl>#redPushpin</styleUrl>
-            <description>
-                stCounty: CO,EL PASO<br/>
-                vertDatum: NAVD 88<br/>
-                vertSource: ADJUSTED<br/>
-                condition: GOOD<br/>
-                setting: 49 = STAINLESS STEEL ROD W/O SLEEVE (10 FT.+)<br/>
-                View link below in web browser and not Firefox
-                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK0862
-            </description>
-            <LookAt>
-                <longitude>-104.7916666667</longitude>
-                <latitude>38.7547222222</latitude>
-                <altitude>0</altitude>
-                <heading>0.0</heading>
-                <tilt>0</tilt>
-                <range>23947.66089891575</range>
-                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-            </LookAt>
-            <Point>
-                <gx:drawOrder>1</gx:drawOrder>
-                <coordinates>-104.7916666667,38.7547222222,0</coordinates>
-            </Point>
-            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
-        </Placemark>
-        <Placemark>
-            <name>JK1329</name>
-            <styleUrl>#redPushpin</styleUrl>
-            <description>
-                stCounty: CO,EL PASO<br/>
-                vertDatum: NAVD 88<br/>
-                vertSource: GPS OBS<br/>
-                condition: GOOD<br/>
-                setting: 7 = SET IN TOP OF CONCRETE MONUMENT<br/>
-                View link below in web browser and not Firefox
-                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK1329
-            </description>
-            <LookAt>
-                <longitude>-104.7912339444</longitude>
-                <latitude>38.7547826639</latitude>
-                <altitude>0</altitude>
-                <heading>0.0</heading>
-                <tilt>0</tilt>
-                <range>23947.66089891575</range>
-                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-            </LookAt>
-            <Point>
-                <gx:drawOrder>1</gx:drawOrder>
-                <coordinates>-104.7912339444,38.7547826639,0</coordinates>
-            </Point>
-            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
-        </Placemark>
-        <Placemark>
-            <name>JK1218</name>
-            <styleUrl>#redPushpin</styleUrl>
-            <description>
-                stCounty: CO,EL PASO<br/>
-                vertDatum: NAVD 88<br/>
-                vertSource: SCALED<br/>
-                condition: MARK NOT FOUND<br/>
-                setting: 66 = SET IN ROCK OUTCROP<br/>
-                View link below in web browser and not Firefox
-                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK1218
-            </description>
-            <LookAt>
-                <longitude>-104.8056310472</longitude>
-                <latitude>38.7552201667</latitude>
-                <altitude>0</altitude>
-                <heading>0.0</heading>
-                <tilt>0</tilt>
-                <range>23947.66089891575</range>
-                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-            </LookAt>
-            <Point>
-                <gx:drawOrder>1</gx:drawOrder>
-                <coordinates>-104.8056310472,38.7552201667,0</coordinates>
-            </Point>
-            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
-        </Placemark>
-        <Placemark>
-            <name>JK0861</name>
-            <styleUrl>#redPushpin</styleUrl>
-            <description>
-                stCounty: CO,EL PASO<br/>
-                vertDatum: NAVD 88<br/>
-                vertSource: ADJUSTED<br/>
-                condition: MONUMENTED<br/>
-                setting: 49 = STAINLESS STEEL ROD W/O SLEEVE (10 FT.+)<br/>
-                View link below in web browser and not Firefox
-                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK0861
-            </description>
-            <LookAt>
-                <longitude>-104.7948790528</longitude>
-                <latitude>38.7632254778</latitude>
-                <altitude>0</altitude>
-                <heading>0.0</heading>
-                <tilt>0</tilt>
-                <range>23947.66089891575</range>
-                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-            </LookAt>
-            <Point>
-                <gx:drawOrder>1</gx:drawOrder>
-                <coordinates>-104.7948790528,38.7632254778,0</coordinates>
-            </Point>
-            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
-        </Placemark>
-        <Placemark>
-            <name>JK0860</name>
-            <styleUrl>#redPushpin</styleUrl>
-            <description>
-                stCounty: CO,EL PASO<br/>
-                vertDatum: NAVD 88<br/>
-                vertSource: ADJUSTED<br/>
-                condition: GOOD<br/>
-                setting: 38 = SET IN THE ABUTMENT OR PIER OF A LARGE BRIDGE<br/>
-                View link below in web browser and not Firefox
-                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK0860
-            </description>
-            <LookAt>
-                <longitude>-104.7761111111</longitude>
-                <latitude>38.7647222222</latitude>
-                <altitude>0</altitude>
-                <heading>0.0</heading>
-                <tilt>0</tilt>
-                <range>23947.66089891575</range>
-                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-            </LookAt>
-            <Point>
-                <gx:drawOrder>1</gx:drawOrder>
-                <coordinates>-104.7761111111,38.7647222222,0</coordinates>
-            </Point>
-            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
-        </Placemark>
-        <Placemark>
-            <name>JK1217</name>
-            <styleUrl>#redPushpin</styleUrl>
-            <description>
-                stCounty: CO,EL PASO<br/>
-                vertDatum: NAVD 88<br/>
-                vertSource: SCALED<br/>
-                condition: FIRST OBSERVED<br/>
-                setting:  <br/>
-                View link below in web browser and not Firefox
-                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK1217
-            </description>
-            <LookAt>
-                <longitude>-104.7920466917</longitude>
-                <latitude>38.7660873194</latitude>
-                <altitude>0</altitude>
-                <heading>0.0</heading>
-                <tilt>0</tilt>
-                <range>23947.66089891575</range>
-                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-            </LookAt>
-            <Point>
-                <gx:drawOrder>1</gx:drawOrder>
-                <coordinates>-104.7920466917,38.7660873194,0</coordinates>
-            </Point>
-            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
-        </Placemark>
-        <Placemark>
-            <name>JK0277</name>
-            <styleUrl>#redPushpin</styleUrl>
-            <description>
-                stCounty: CO,EL PASO<br/>
-                vertDatum: NAVD 88<br/>
-                vertSource: ADJUSTED<br/>
-                condition: MARK NOT FOUND<br/>
-                setting: 7 = SET IN TOP OF CONCRETE MONUMENT<br/>
-                View link below in web browser and not Firefox
-                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK0277
-            </description>
-            <LookAt>
-                <longitude>-104.8133333333</longitude>
-                <latitude>38.7725000000</latitude>
-                <altitude>0</altitude>
-                <heading>0.0</heading>
-                <tilt>0</tilt>
-                <range>23947.66089891575</range>
-                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-            </LookAt>
-            <Point>
-                <gx:drawOrder>1</gx:drawOrder>
-                <coordinates>-104.8133333333,38.7725000000,0</coordinates>
-            </Point>
-            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
-        </Placemark>
-        <Placemark>
             <name>JK0178</name>
-            <styleUrl>#redPushpin</styleUrl>
+            <styleUrl>#redCircle</styleUrl>
             <description>
                 stCounty: CO,EL PASO<br/>
                 vertDatum: NAVD 88<br/>
@@ -770,7 +3032,7 @@
         </Placemark>
         <Placemark>
             <name>JK0177</name>
-            <styleUrl>#redPushpin</styleUrl>
+            <styleUrl>#redCircle</styleUrl>
             <description>
                 stCounty: CO,EL PASO<br/>
                 vertDatum: NAVD 88<br/>
@@ -797,7 +3059,7 @@
         </Placemark>
         <Placemark>
             <name>JK1219</name>
-            <styleUrl>#redPushpin</styleUrl>
+            <styleUrl>#redCircle</styleUrl>
             <description>
                 stCounty: CO,EL PASO<br/>
                 vertDatum: NAVD 88<br/>
@@ -824,7 +3086,7 @@
         </Placemark>
         <Placemark>
             <name>JK0839</name>
-            <styleUrl>#redPushpin</styleUrl>
+            <styleUrl>#redCircle</styleUrl>
             <description>
                 stCounty: CO,EL PASO<br/>
                 vertDatum: NAVD 88<br/>
@@ -851,7 +3113,7 @@
         </Placemark>
         <Placemark>
             <name>JK0275</name>
-            <styleUrl>#redPushpin</styleUrl>
+            <styleUrl>#redCircle</styleUrl>
             <description>
                 stCounty: CO,EL PASO<br/>
                 vertDatum: NAVD 88<br/>
@@ -878,7 +3140,7 @@
         </Placemark>
         <Placemark>
             <name>JK0176</name>
-            <styleUrl>#redPushpin</styleUrl>
+            <styleUrl>#redCircle</styleUrl>
             <description>
                 stCounty: CO,EL PASO<br/>
                 vertDatum: NAVD 88<br/>
@@ -905,7 +3167,7 @@
         </Placemark>
         <Placemark>
             <name>JK0840</name>
-            <styleUrl>#redPushpin</styleUrl>
+            <styleUrl>#redCircle</styleUrl>
             <description>
                 stCounty: CO,EL PASO<br/>
                 vertDatum: NAVD 88<br/>
@@ -932,7 +3194,7 @@
         </Placemark>
         <Placemark>
             <name>JK0274</name>
-            <styleUrl>#redPushpin</styleUrl>
+            <styleUrl>#redCircle</styleUrl>
             <description>
                 stCounty: CO,EL PASO<br/>
                 vertDatum: NAVD 88<br/>
@@ -959,7 +3221,7 @@
         </Placemark>
         <Placemark>
             <name>JK0175</name>
-            <styleUrl>#redPushpin</styleUrl>
+            <styleUrl>#redCircle</styleUrl>
             <description>
                 stCounty: CO,EL PASO<br/>
                 vertDatum: NAVD 88<br/>
@@ -986,7 +3248,7 @@
         </Placemark>
         <Placemark>
             <name>DL2015</name>
-            <styleUrl>#redPushpin</styleUrl>
+            <styleUrl>#redCircle</styleUrl>
             <description>
                 stCounty: CO,EL PASO<br/>
                 vertDatum: NAVD 88<br/>
@@ -1013,7 +3275,7 @@
         </Placemark>
         <Placemark>
             <name>JK0174</name>
-            <styleUrl>#redPushpin</styleUrl>
+            <styleUrl>#redCircle</styleUrl>
             <description>
                 stCounty: CO,EL PASO<br/>
                 vertDatum: NAVD 88<br/>
@@ -1040,7 +3302,7 @@
         </Placemark>
         <Placemark>
             <name>JK0841</name>
-            <styleUrl>#redPushpin</styleUrl>
+            <styleUrl>#redCircle</styleUrl>
             <description>
                 stCounty: CO,EL PASO<br/>
                 vertDatum: NAVD 88<br/>
@@ -1067,7 +3329,7 @@
         </Placemark>
         <Placemark>
             <name>JK0173</name>
-            <styleUrl>#redPushpin</styleUrl>
+            <styleUrl>#redCircle</styleUrl>
             <description>
                 stCounty: CO,EL PASO<br/>
                 vertDatum: NAVD 88<br/>
@@ -1094,7 +3356,7 @@
         </Placemark>
         <Placemark>
             <name>JK0272</name>
-            <styleUrl>#redPushpin</styleUrl>
+            <styleUrl>#redCircle</styleUrl>
             <description>
                 stCounty: CO,EL PASO<br/>
                 vertDatum: NAVD 88<br/>
@@ -1121,7 +3383,7 @@
         </Placemark>
         <Placemark>
             <name>JK1323</name>
-            <styleUrl>#redPushpin</styleUrl>
+            <styleUrl>#redCircle</styleUrl>
             <description>
                 stCounty: CO,EL PASO<br/>
                 vertDatum: NAVD 88<br/>
@@ -1148,7 +3410,7 @@
         </Placemark>
         <Placemark>
             <name>JK0172</name>
-            <styleUrl>#redPushpin</styleUrl>
+            <styleUrl>#redCircle</styleUrl>
             <description>
                 stCounty: CO,EL PASO<br/>
                 vertDatum: NAVD 88<br/>
@@ -1175,7 +3437,7 @@
         </Placemark>
         <Placemark>
             <name>AE4291</name>
-            <styleUrl>#redPushpin</styleUrl>
+            <styleUrl>#redCircle</styleUrl>
             <description>
                 stCounty: CO,EL PASO<br/>
                 vertDatum: NAVD 88<br/>
@@ -1202,7 +3464,7 @@
         </Placemark>
         <Placemark>
             <name>JK1214</name>
-            <styleUrl>#redPushpin</styleUrl>
+            <styleUrl>#redCircle</styleUrl>
             <description>
                 stCounty: CO,EL PASO<br/>
                 vertDatum:  <br/>
@@ -1229,7 +3491,7 @@
         </Placemark>
         <Placemark>
             <name>JK1366</name>
-            <styleUrl>#redPushpin</styleUrl>
+            <styleUrl>#redCircle</styleUrl>
             <description>
                 stCounty: CO,EL PASO<br/>
                 vertDatum: NAVD 88<br/>
@@ -1256,7 +3518,7 @@
         </Placemark>
         <Placemark>
             <name>JK0171</name>
-            <styleUrl>#redPushpin</styleUrl>
+            <styleUrl>#redCircle</styleUrl>
             <description>
                 stCounty: CO,EL PASO<br/>
                 vertDatum: NAVD 88<br/>
@@ -1283,7 +3545,7 @@
         </Placemark>
         <Placemark>
             <name>JK0248</name>
-            <styleUrl>#redPushpin</styleUrl>
+            <styleUrl>#redCircle</styleUrl>
             <description>
                 stCounty: CO,EL PASO<br/>
                 vertDatum: NAVD 88<br/>
@@ -1310,7 +3572,7 @@
         </Placemark>
         <Placemark>
             <name>JK0210</name>
-            <styleUrl>#redPushpin</styleUrl>
+            <styleUrl>#redCircle</styleUrl>
             <description>
                 stCounty: CO,EL PASO<br/>
                 vertDatum: NAVD 88<br/>
@@ -1337,7 +3599,7 @@
         </Placemark>
         <Placemark>
             <name>JK0211</name>
-            <styleUrl>#redPushpin</styleUrl>
+            <styleUrl>#redCircle</styleUrl>
             <description>
                 stCounty: CO,EL PASO<br/>
                 vertDatum: NAVD 88<br/>
@@ -1364,7 +3626,7 @@
         </Placemark>
         <Placemark>
             <name>JK1210</name>
-            <styleUrl>#redPushpin</styleUrl>
+            <styleUrl>#redCircle</styleUrl>
             <description>
                 stCounty: CO,EL PASO<br/>
                 vertDatum:  <br/>
@@ -1391,7 +3653,7 @@
         </Placemark>
         <Placemark>
             <name>DL2017</name>
-            <styleUrl>#redPushpin</styleUrl>
+            <styleUrl>#redCircle</styleUrl>
             <description>
                 stCounty: CO,EL PASO<br/>
                 vertDatum: NAVD 88<br/>
@@ -1417,332 +3679,8 @@
             <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
         </Placemark>
         <Placemark>
-            <name>JK0280</name>
-            <styleUrl>#redPushpin</styleUrl>
-            <description>
-                stCounty: CO,EL PASO<br/>
-                vertDatum: NAVD 88<br/>
-                vertSource: ADJUSTED<br/>
-                condition: MARK NOT FOUND<br/>
-                setting: 7 = SET IN TOP OF CONCRETE MONUMENT<br/>
-                View link below in web browser and not Firefox
-                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK0280
-            </description>
-            <LookAt>
-                <longitude>-104.8144444444</longitude>
-                <latitude>38.7322222222</latitude>
-                <altitude>0</altitude>
-                <heading>0.0</heading>
-                <tilt>0</tilt>
-                <range>23947.66089891575</range>
-                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-            </LookAt>
-            <Point>
-                <gx:drawOrder>1</gx:drawOrder>
-                <coordinates>-104.8144444444,38.7322222222,0</coordinates>
-            </Point>
-            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
-        </Placemark>
-        <Placemark>
-            <name>JK0279</name>
-            <styleUrl>#redPushpin</styleUrl>
-            <description>
-                stCounty: CO,EL PASO<br/>
-                vertDatum: NAVD 88<br/>
-                vertSource: ADJUSTED<br/>
-                condition: GOOD<br/>
-                setting: 80 = SET IN A BOULDER<br/>
-                View link below in web browser and not Firefox
-                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK0279
-            </description>
-            <LookAt>
-                <longitude>-104.8094444444</longitude>
-                <latitude>38.7416666667</latitude>
-                <altitude>0</altitude>
-                <heading>0.0</heading>
-                <tilt>0</tilt>
-                <range>23947.66089891575</range>
-                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-            </LookAt>
-            <Point>
-                <gx:drawOrder>1</gx:drawOrder>
-                <coordinates>-104.8094444444,38.7416666667,0</coordinates>
-            </Point>
-            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
-        </Placemark>
-        <Placemark>
-            <name>JK1330</name>
-            <styleUrl>#redPushpin</styleUrl>
-            <description>
-                stCounty: CO,EL PASO<br/>
-                vertDatum:  <br/>
-                vertSource:  <br/>
-                condition: FIRST OBSERVED<br/>
-                setting:  <br/>
-                View link below in web browser and not Firefox
-                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK1330
-            </description>
-            <LookAt>
-                <longitude>-104.8626285389</longitude>
-                <latitude>38.7450125972</latitude>
-                <altitude>0</altitude>
-                <heading>0.0</heading>
-                <tilt>0</tilt>
-                <range>23947.66089891575</range>
-                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-            </LookAt>
-            <Point>
-                <gx:drawOrder>1</gx:drawOrder>
-                <coordinates>-104.8626285389,38.7450125972,0</coordinates>
-            </Point>
-            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
-        </Placemark>
-        <Placemark>
-            <name>JK1220</name>
-            <styleUrl>#redPushpin</styleUrl>
-            <description>
-                stCounty: CO,EL PASO<br/>
-                vertDatum: NAVD 88<br/>
-                vertSource: VERTCON3<br/>
-                condition: MONUMENTED<br/>
-                setting: 66 = SET IN ROCK OUTCROP<br/>
-                View link below in web browser and not Firefox
-                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK1220
-            </description>
-            <LookAt>
-                <longitude>-104.8391546611</longitude>
-                <latitude>38.7551990944</latitude>
-                <altitude>0</altitude>
-                <heading>0.0</heading>
-                <tilt>0</tilt>
-                <range>23947.66089891575</range>
-                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-            </LookAt>
-            <Point>
-                <gx:drawOrder>1</gx:drawOrder>
-                <coordinates>-104.8391546611,38.7551990944,0</coordinates>
-            </Point>
-            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
-        </Placemark>
-        <Placemark>
-            <name>JK0258</name>
-            <styleUrl>#redPushpin</styleUrl>
-            <description>
-                stCounty: CO,EL PASO<br/>
-                vertDatum: NAVD 88<br/>
-                vertSource: ADJUSTED<br/>
-                condition: GOOD<br/>
-                setting: 80 = SET IN A BOULDER<br/>
-                View link below in web browser and not Firefox
-                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK0258
-            </description>
-            <LookAt>
-                <longitude>-104.9144444444</longitude>
-                <latitude>38.7866666667</latitude>
-                <altitude>0</altitude>
-                <heading>0.0</heading>
-                <tilt>0</tilt>
-                <range>23947.66089891575</range>
-                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-            </LookAt>
-            <Point>
-                <gx:drawOrder>1</gx:drawOrder>
-                <coordinates>-104.9144444444,38.7866666667,0</coordinates>
-            </Point>
-            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
-        </Placemark>
-        <Placemark>
-            <name>JK0259</name>
-            <styleUrl>#redPushpin</styleUrl>
-            <description>
-                stCounty: CO,EL PASO<br/>
-                vertDatum: NAVD 88<br/>
-                vertSource: ADJUSTED<br/>
-                condition: GOOD<br/>
-                setting: 80 = SET IN A BOULDER<br/>
-                View link below in web browser and not Firefox
-                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK0259
-            </description>
-            <LookAt>
-                <longitude>-104.9080555556</longitude>
-                <latitude>38.7908333333</latitude>
-                <altitude>0</altitude>
-                <heading>0.0</heading>
-                <tilt>0</tilt>
-                <range>23947.66089891575</range>
-                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-            </LookAt>
-            <Point>
-                <gx:drawOrder>1</gx:drawOrder>
-                <coordinates>-104.9080555556,38.7908333333,0</coordinates>
-            </Point>
-            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
-        </Placemark>
-        <Placemark>
-            <name>JK0256</name>
-            <styleUrl>#redPushpin</styleUrl>
-            <description>
-                stCounty: CO,EL PASO<br/>
-                vertDatum: NAVD 88<br/>
-                vertSource: ADJUSTED<br/>
-                condition: GOOD<br/>
-                setting: 80 = SET IN A BOULDER<br/>
-                View link below in web browser and not Firefox
-                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK0256
-            </description>
-            <LookAt>
-                <longitude>-104.9028416667</longitude>
-                <latitude>38.7750583333</latitude>
-                <altitude>0</altitude>
-                <heading>0.0</heading>
-                <tilt>0</tilt>
-                <range>23947.66089891575</range>
-                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-            </LookAt>
-            <Point>
-                <gx:drawOrder>1</gx:drawOrder>
-                <coordinates>-104.9028416667,38.7750583333,0</coordinates>
-            </Point>
-            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
-        </Placemark>
-        <Placemark>
-            <name>JK0257</name>
-            <styleUrl>#redPushpin</styleUrl>
-            <description>
-                stCounty: CO,EL PASO<br/>
-                vertDatum: NAVD 88<br/>
-                vertSource: ADJUSTED<br/>
-                condition: GOOD<br/>
-                setting: 80 = SET IN A BOULDER<br/>
-                View link below in web browser and not Firefox
-                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK0257
-            </description>
-            <LookAt>
-                <longitude>-104.9033333333</longitude>
-                <latitude>38.7847222222</latitude>
-                <altitude>0</altitude>
-                <heading>0.0</heading>
-                <tilt>0</tilt>
-                <range>23947.66089891575</range>
-                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-            </LookAt>
-            <Point>
-                <gx:drawOrder>1</gx:drawOrder>
-                <coordinates>-104.9033333333,38.7847222222,0</coordinates>
-            </Point>
-            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
-        </Placemark>
-        <Placemark>
-            <name>JK0260</name>
-            <styleUrl>#redPushpin</styleUrl>
-            <description>
-                stCounty: CO,EL PASO<br/>
-                vertDatum: NAVD 88<br/>
-                vertSource: ADJUSTED<br/>
-                condition: GOOD<br/>
-                setting: 80 = SET IN A BOULDER<br/>
-                View link below in web browser and not Firefox
-                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK0260
-            </description>
-            <LookAt>
-                <longitude>-104.8977777778</longitude>
-                <latitude>38.7947222222</latitude>
-                <altitude>0</altitude>
-                <heading>0.0</heading>
-                <tilt>0</tilt>
-                <range>23947.66089891575</range>
-                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-            </LookAt>
-            <Point>
-                <gx:drawOrder>1</gx:drawOrder>
-                <coordinates>-104.8977777778,38.7947222222,0</coordinates>
-            </Point>
-            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
-        </Placemark>
-        <Placemark>
-            <name>JK0264</name>
-            <styleUrl>#redPushpin</styleUrl>
-            <description>
-                stCounty: CO,EL PASO<br/>
-                vertDatum: NAVD 88<br/>
-                vertSource: ADJUSTED<br/>
-                condition: GOOD<br/>
-                setting: 32 = SET IN A RETAINING WALL OR CONCRETE LEDGE<br/>
-                View link below in web browser and not Firefox
-                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK0264
-            </description>
-            <LookAt>
-                <longitude>-104.8920083333</longitude>
-                <latitude>38.8199916667</latitude>
-                <altitude>0</altitude>
-                <heading>0.0</heading>
-                <tilt>0</tilt>
-                <range>23947.66089891575</range>
-                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-            </LookAt>
-            <Point>
-                <gx:drawOrder>1</gx:drawOrder>
-                <coordinates>-104.8920083333,38.8199916667,0</coordinates>
-            </Point>
-            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
-        </Placemark>
-        <Placemark>
-            <name>JK1222</name>
-            <styleUrl>#redPushpin</styleUrl>
-            <description>
-                stCounty: CO,EL PASO<br/>
-                vertDatum: NAVD 88<br/>
-                vertSource: SCALED<br/>
-                condition: SEE DESCRIPTION<br/>
-                setting: 0 = UNSPECIFIED SETTING<br/>
-                View link below in web browser and not Firefox
-                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK1222
-            </description>
-            <LookAt>
-                <longitude>-104.8896905611</longitude>
-                <latitude>38.8157775028</latitude>
-                <altitude>0</altitude>
-                <heading>0.0</heading>
-                <tilt>0</tilt>
-                <range>23947.66089891575</range>
-                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-            </LookAt>
-            <Point>
-                <gx:drawOrder>1</gx:drawOrder>
-                <coordinates>-104.8896905611,38.8157775028,0</coordinates>
-            </Point>
-            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
-        </Placemark>
-        <Placemark>
-            <name>JK0261</name>
-            <styleUrl>#redPushpin</styleUrl>
-            <description>
-                stCounty: CO,EL PASO<br/>
-                vertDatum: NAVD 88<br/>
-                vertSource: ADJUSTED<br/>
-                condition: GOOD<br/>
-                setting: 80 = SET IN A BOULDER<br/>
-                View link below in web browser and not Firefox
-                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK0261
-            </description>
-            <LookAt>
-                <longitude>-104.8849166667</longitude>
-                <latitude>38.7986111111</latitude>
-                <altitude>0</altitude>
-                <heading>0.0</heading>
-                <tilt>0</tilt>
-                <range>23947.66089891575</range>
-                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-            </LookAt>
-            <Point>
-                <gx:drawOrder>1</gx:drawOrder>
-                <coordinates>-104.8849166667,38.7986111111,0</coordinates>
-            </Point>
-            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
-        </Placemark>
-        <Placemark>
             <name>JK0265</name>
-            <styleUrl>#redPushpin</styleUrl>
+            <styleUrl>#redCircle</styleUrl>
             <description>
                 stCounty: CO,EL PASO<br/>
                 vertDatum: NAVD 88<br/>
@@ -1768,89 +3706,8 @@
             <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
         </Placemark>
         <Placemark>
-            <name>JK0263</name>
-            <styleUrl>#redPushpin</styleUrl>
-            <description>
-                stCounty: CO,EL PASO<br/>
-                vertDatum: NAVD 88<br/>
-                vertSource: ADJUSTED<br/>
-                condition: GOOD<br/>
-                setting: 80 = SET IN A BOULDER<br/>
-                View link below in web browser and not Firefox
-                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK0263
-            </description>
-            <LookAt>
-                <longitude>-104.8804666667</longitude>
-                <latitude>38.8131166667</latitude>
-                <altitude>0</altitude>
-                <heading>0.0</heading>
-                <tilt>0</tilt>
-                <range>23947.66089891575</range>
-                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-            </LookAt>
-            <Point>
-                <gx:drawOrder>1</gx:drawOrder>
-                <coordinates>-104.8804666667,38.8131166667,0</coordinates>
-            </Point>
-            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
-        </Placemark>
-        <Placemark>
-            <name>JK0262</name>
-            <styleUrl>#redPushpin</styleUrl>
-            <description>
-                stCounty: CO,EL PASO<br/>
-                vertDatum: NAVD 88<br/>
-                vertSource: ADJUSTED<br/>
-                condition: GOOD<br/>
-                setting: 80 = SET IN A BOULDER<br/>
-                View link below in web browser and not Firefox
-                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK0262
-            </description>
-            <LookAt>
-                <longitude>-104.8763888889</longitude>
-                <latitude>38.8002777778</latitude>
-                <altitude>0</altitude>
-                <heading>0.0</heading>
-                <tilt>0</tilt>
-                <range>23947.66089891575</range>
-                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-            </LookAt>
-            <Point>
-                <gx:drawOrder>1</gx:drawOrder>
-                <coordinates>-104.8763888889,38.8002777778,0</coordinates>
-            </Point>
-            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
-        </Placemark>
-        <Placemark>
-            <name>JK1221</name>
-            <styleUrl>#redPushpin</styleUrl>
-            <description>
-                stCounty: CO,EL PASO<br/>
-                vertDatum: NAVD 88<br/>
-                vertSource: VERTCON3<br/>
-                condition: GOOD<br/>
-                setting: 0 = UNSPECIFIED SETTING<br/>
-                View link below in web browser and not Firefox
-                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK1221
-            </description>
-            <LookAt>
-                <longitude>-104.8665250778</longitude>
-                <latitude>38.7579879250</latitude>
-                <altitude>0</altitude>
-                <heading>0.0</heading>
-                <tilt>0</tilt>
-                <range>23947.66089891575</range>
-                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-            </LookAt>
-            <Point>
-                <gx:drawOrder>1</gx:drawOrder>
-                <coordinates>-104.8665250778,38.7579879250,0</coordinates>
-            </Point>
-            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
-        </Placemark>
-        <Placemark>
             <name>JK0266</name>
-            <styleUrl>#redPushpin</styleUrl>
+            <styleUrl>#redCircle</styleUrl>
             <description>
                 stCounty: CO,EL PASO<br/>
                 vertDatum: NAVD 88<br/>
@@ -1877,7 +3734,7 @@
         </Placemark>
         <Placemark>
             <name>JK0267</name>
-            <styleUrl>#redPushpin</styleUrl>
+            <styleUrl>#redCircle</styleUrl>
             <description>
                 stCounty: CO,EL PASO<br/>
                 vertDatum: NAVD 88<br/>
@@ -1904,7 +3761,7 @@
         </Placemark>
         <Placemark>
             <name>JK0268</name>
-            <styleUrl>#redPushpin</styleUrl>
+            <styleUrl>#redCircle</styleUrl>
             <description>
                 stCounty: CO,EL PASO<br/>
                 vertDatum: NAVD 88<br/>
@@ -1931,7 +3788,7 @@
         </Placemark>
         <Placemark>
             <name>JK0269</name>
-            <styleUrl>#redPushpin</styleUrl>
+            <styleUrl>#redCircle</styleUrl>
             <description>
                 stCounty: CO,EL PASO<br/>
                 vertDatum: NAVD 88<br/>
@@ -1958,7 +3815,7 @@
         </Placemark>
         <Placemark>
             <name>DL2014</name>
-            <styleUrl>#redPushpin</styleUrl>
+            <styleUrl>#redCircle</styleUrl>
             <description>
                 stCounty: CO,EL PASO<br/>
                 vertDatum: NAVD 88<br/>
@@ -1985,7 +3842,7 @@
         </Placemark>
         <Placemark>
             <name>DF8533</name>
-            <styleUrl>#redPushpin</styleUrl>
+            <styleUrl>#redCircle</styleUrl>
             <description>
                 stCounty: CO,EL PASO<br/>
                 vertDatum: NAVD 88<br/>
@@ -2011,35 +3868,8 @@
             <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
         </Placemark>
         <Placemark>
-            <name>JK0276</name>
-            <styleUrl>#redPushpin</styleUrl>
-            <description>
-                stCounty: CO,EL PASO<br/>
-                vertDatum: NAVD 88<br/>
-                vertSource: ADJUSTED<br/>
-                condition: MARK NOT FOUND<br/>
-                setting: 7 = SET IN TOP OF CONCRETE MONUMENT<br/>
-                View link below in web browser and not Firefox
-                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK0276
-            </description>
-            <LookAt>
-                <longitude>-104.8222222222</longitude>
-                <latitude>38.7850000000</latitude>
-                <altitude>0</altitude>
-                <heading>0.0</heading>
-                <tilt>0</tilt>
-                <range>23947.66089891575</range>
-                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-            </LookAt>
-            <Point>
-                <gx:drawOrder>1</gx:drawOrder>
-                <coordinates>-104.8222222222,38.7850000000,0</coordinates>
-            </Point>
-            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
-        </Placemark>
-        <Placemark>
             <name>JK0843</name>
-            <styleUrl>#redPushpin</styleUrl>
+            <styleUrl>#redCircle</styleUrl>
             <description>
                 stCounty: CO,EL PASO<br/>
                 vertDatum: NAVD 88<br/>
@@ -2066,7 +3896,7 @@
         </Placemark>
         <Placemark>
             <name>JK1207</name>
-            <styleUrl>#redPushpin</styleUrl>
+            <styleUrl>#redCircle</styleUrl>
             <description>
                 stCounty: CO,EL PASO<br/>
                 vertDatum: NAVD 88<br/>
@@ -2093,7 +3923,7 @@
         </Placemark>
         <Placemark>
             <name>DE5606</name>
-            <styleUrl>#redPushpin</styleUrl>
+            <styleUrl>#redCircle</styleUrl>
             <description>
                 stCounty: CO,EL PASO<br/>
                 vertDatum: NAVD 88<br/>
@@ -2120,7 +3950,7 @@
         </Placemark>
         <Placemark>
             <name>JK0170</name>
-            <styleUrl>#redPushpin</styleUrl>
+            <styleUrl>#redCircle</styleUrl>
             <description>
                 stCounty: CO,EL PASO<br/>
                 vertDatum: NAVD 88<br/>
@@ -2147,7 +3977,7 @@
         </Placemark>
         <Placemark>
             <name>JK0169</name>
-            <styleUrl>#redPushpin</styleUrl>
+            <styleUrl>#redCircle</styleUrl>
             <description>
                 stCounty: CO,EL PASO<br/>
                 vertDatum: NAVD 88<br/>
@@ -2174,7 +4004,7 @@
         </Placemark>
         <Placemark>
             <name>JK0846</name>
-            <styleUrl>#redPushpin</styleUrl>
+            <styleUrl>#redCircle</styleUrl>
             <description>
                 stCounty: CO,EL PASO<br/>
                 vertDatum: NAVD 88<br/>
@@ -2201,7 +4031,7 @@
         </Placemark>
         <Placemark>
             <name>JK0168</name>
-            <styleUrl>#redPushpin</styleUrl>
+            <styleUrl>#redCircle</styleUrl>
             <description>
                 stCounty: CO,EL PASO<br/>
                 vertDatum: NAVD 88<br/>
@@ -2228,7 +4058,7 @@
         </Placemark>
         <Placemark>
             <name>DL2016</name>
-            <styleUrl>#redPushpin</styleUrl>
+            <styleUrl>#redCircle</styleUrl>
             <description>
                 stCounty: CO,EL PASO<br/>
                 vertDatum: NAVD 88<br/>
@@ -2254,35 +4084,8 @@
             <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
         </Placemark>
         <Placemark>
-            <name>JK0278</name>
-            <styleUrl>#redPushpin</styleUrl>
-            <description>
-                stCounty: CO,EL PASO<br/>
-                vertDatum: NAVD 88<br/>
-                vertSource: ADJUSTED<br/>
-                condition: MARK NOT FOUND<br/>
-                setting: 7 = SET IN TOP OF CONCRETE MONUMENT<br/>
-                View link below in web browser and not Firefox
-                URL: https://geodesy.noaa.gov/datasheets/passive-marks/index.html?PID=JK0278
-            </description>
-            <LookAt>
-                <longitude>-104.8116666667</longitude>
-                <latitude>38.7577777778</latitude>
-                <altitude>0</altitude>
-                <heading>0.0</heading>
-                <tilt>0</tilt>
-                <range>23947.66089891575</range>
-                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-            </LookAt>
-            <Point>
-                <gx:drawOrder>1</gx:drawOrder>
-                <coordinates>-104.8116666667,38.7577777778,0</coordinates>
-            </Point>
-            <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
-        </Placemark>
-        <Placemark>
             <name>JK0845</name>
-            <styleUrl>#redPushpin</styleUrl>
+            <styleUrl>#redCircle</styleUrl>
             <description>
                 stCounty: CO,EL PASO<br/>
                 vertDatum: NAVD 88<br/>
@@ -2309,7 +4112,7 @@
         </Placemark>
         <Placemark>
             <name>JK0273</name>
-            <styleUrl>#redPushpin</styleUrl>
+            <styleUrl>#redCircle</styleUrl>
             <description>
                 stCounty: CO,EL PASO<br/>
                 vertDatum: NAVD 88<br/>
@@ -2336,7 +4139,7 @@
         </Placemark>
         <Placemark>
             <name>JK0167</name>
-            <styleUrl>#redPushpin</styleUrl>
+            <styleUrl>#redCircle</styleUrl>
             <description>
                 stCounty: CO,EL PASO<br/>
                 vertDatum: NAVD 88<br/>
